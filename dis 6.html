@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta name="My Website" content="LPU KOC35 BAtch" />
+    <title>My website</title>
+  </head>
+  <body>
+    <h1>Student Details Form</h1>
+    <hr />
+    <form action="/home/immortal/Documents/LPU/KOC35/index.html">
+      <!-- Name field is required, you can't submit it without filling name. -->
+      <label for="name">Name*:</label>
+      <input value="" placeholder="Name of Student" type="text" required />
+      <br />
+      <br />
+      <label for="email">Email:</label>
+      <input value="" placeholder="Email of Student" type="email" />
+      <br />
+      <br />
+      <label for="email">Annual Package you want(LPA):</label>
+      <input
+        value="10"
+        placeholder="10"
+        type="number"
+        min="5"
+        max="50"
+        step="5"
+      />
+      <br />
+      <br />
+      <label for="password">Password:</label>
+      <input value="" placeholder="Password" type="password" />
+      <br />
+      <br />
+      <label for="gender">Gender:</label>
+      <!-- By default Male field uis checked because of checked attribute. -->
+      <input type="radio" value="Male" name="gender_of_student" checked />
+      <label for="male">Male</label>
+      <input type="radio" value="Female" name="gender_of_student" /><label
+        for="Female"
+        >Female</label
+      >
+      <input type="radio" value="Others" name="gender_of_student" /><label
+        for="oothers"
+        >Others</label
+      >
+      <br />
+      <br />
+      <label for="programming_lang">Programming Languafe:</label>
+      <!--This field is by default checked-->
+      <input type="checkbox" value="Male" name="language0" checked />
+      <label for="c++">C++</label>
+      <input type="checkbox" value="Female" name="language1" />
+      <label for="java">JAVA</label>
+      <input type="checkbox" value="Others" name="language2" />
+      <label for="python">PYTHON</label>
+      <input type="checkbox" value="Others" name="language3" />
+      <label for="go">GO</label>
+      <br />
+      <br />
+      <label for="dob">Date of Birth:</label>
+      <input
+        type="date"
+        name="Birthday"
+        max="2020-08-09"
+        min="2020-07-09"
+        value=""
+      />
+      <br />
+      <br />
+      <label for="dob">Birthday Date and Time:</label>
+      <input type="datetime-local" name="Birthday_time" value="" />
+      <br />
+      <br />
+      <label for="tel_number">Mobile No:</label>
+      <input
+        type="tel"
+        value=""
+        name="tel_number"
+        placeholder="123-4567-890"
+        pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}"
+      />
+      <br />
+      <br />
+      <label for="resume">Upload your Resume:</label>
+      <input type="file" value="" />
+      <br />
+      <br />
+      <label for="resume">Enter you Portfolio Url:</label>
+      <input
+        type="url"
+        name="portfolio"
+        placeholder="https://www.cipherschools.com"
+        value=""
+      />
+      <br />
+      <br />
+      <label for="time">Birth Time:</label>
+      <input type="time" value="" />
+      <br />
+      <br />
+      <label for="time">If you have Color Blindness:</label>
+      <input type="color" value="" />
+      <br />
+      <br />
+      <label for="course enrollment month">Course Enrollment Month:</label>
+      <input type="month" value="" />
+      <br />
+      <br />
+      <label for="range">percentage:</label>
+      <label for="0">0</label>
+      <input type="range" min="0" max="5" value="0" step="1" />
+      <label for="5">5</label>
+      <br />
+      <br />
+      <label for="search">Search:</label>
+      <input type="search" value="" />
+      <br />
+      <br />
+      <label for="alert">Click Me you see Magic: </label>
+      <input type="button" onclick="alert('Hello user')" value="Click me" />
+      <br />
+      <br />
+      <!-- This field is hidden but, value will submit when you click on submit button. -->
+      <label for="alert">I am shy!!!</label>
+      <input type="hidden" value="I am smart." />
+      <br />
+      <br />
+      <input type="reset" value="Reset" />
+
+      <input value="Submit" type="submit" />
+    </form>
+    <!-- Source of image is internet -->
+    <img
+      src="https://cn.i.cdn.ti-platform.com/cnemea/content/384/showpage/tom-and-jerry/uk/showsquare.png?imwidth=420"
+      alt="tom-and-jerry"
+      width="250px"
+      height="350px"
+    />
+    <!-- Source of image is local computer. -->
+    <img src="wa.jpg" alt="laptop" width="350px" height="220px" />
+
+    <!-- Anchor Tag -->
+    <a href="https://www.google.com">Google</a>
+    <br />
+    <a href="carrer.html" target="_blank">Career Page Of Website</a>
+    <br />
+    <!-- Video Tags -->
+    <video controls loop autoplay muted width="350px" height="220px">
+      <source
+        src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4"
+        type="video/mp4"
+      />
+    </video>
+  </body>
+</html>
