@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="title" content="LPU KOC10 Class" />
+    <meta
+      name="descrription"
+      content="LPU KOC11 Class Session starts from 9-10AM."
+    />
+    <title>KOC11 LPU</title>
+  </head>
+  <body>
+    <h1>Hello KOC11</h1>
+    <hr />
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit.<br />
+      Tempore illo veritatis sed est quam explicabo voluptatum omnis! Voluptas
+      eligendi aperiam odit consectetur laboriosam officiis quidem quod ad quis
+      labore? Aperiam!
+    </p>
+    <hr />
+    <h2>User Information Form</h2>
+    <form action="greet.html">
+      <label for="name">Name: </label>
+      <input value="" type="text" placeholder="Name of student" />
+      <br />
+      <br />
+      <label for="age">Age: </label>
+      <input
+        value=""
+        type="number"
+        max="60"
+        min="18"
+        placeholder="Age of student"
+      />
+      <br />
+      <br />
+      <label for="email">Email: </label>
+      <input value="" type="email" placeholder="Email of student" required />
+      <br />
+      <br />
+      <label for="password">Password: </label>
+      <input value="" type="password" minlength="8" placeholder="Password" />
+      <br />
+      <br />
+      <label for="gender">Gender: </label>
+      <br />
+      <input type="radio" value="Male" name="gender" checked />
+      <label for="Male">Male</label>
+      <br />
+      <input type="radio" value="Female" name="gender" />
+      <label for="Female">Female</label>
+      <br />
+      <input type="radio" value="Others" name="gender" />
+      <label for="Others">Others</label>
+      <br />
+      <br />
+      <label for="programming_language">Programming Languages: </label>
+      <br />
+      <input type="checkbox" value="C++" name="programming_language" checked />
+      <label for="C++">C++</label>
+      <br />
+      <input type="checkbox" value="JAVA" name="programming_language" />
+      <label for="JAVA">JAVA</label>
+      <br />
+      <input type="checkbox" value="Python" name="programming_language" />
+      <label for="Python">Python</label>
+      <br />
+      <input type="checkbox" value="JAVASCRIPT" name="programming_language" />
+      <label for="JAVASCRIPT">JAVASCRIPT</label>
+      <br />
+      <input type="checkbox" value="GO" name="programming_language" />
+      <label for="GO">GO</label>
+      <br />
+      <br />
+      <label for="rate_your_skills">Rate Your Skills(0-5): </label><br/>
+      <label for="C++">C++: </label>
+      <label for='0'>0</label>
+      <input type="range" value="" min="0" max="5" />
+      <label for="5"'>5</label><br />
+      <label for="JAVA">JAVA: </label>
+      <label for='0'>0</label>
+      <input type="range" value="" min="0" max="5" />
+      <label for="5"'>5</label><br />
+      <label for="JAVASCRIPT">JAVASCRIPT: </label>
+      <label for='0'>0</label>
+      <input type="range" value="" min="0" max="5" />
+      <label for="5"'>5</label><br />
+      <label for="PYTHON">PYTHON: </label>
+      <label for='0'>0</label>
+      <input type="range" value="" min="0" max="5" />
+      <label for="5"'>5</label><br />
+      <br />
+      <br />
+      <label for="mobileNo">Mobile No:</label>
+      <input type="tel" value="" placeholder="123-4567-890" pattern="[0-9]{3}-[0-9]{4}-[0-9]{3}" />
+      <br />
+      <br />
+      <label for="address">Address:</label>
+      <textarea value="" placeholder="tell me your address" ></textarea>
+      <br />
+      <br/>
+      <label for="dob"> Date of Birth: </label>
+      <input type="date" value="" min="2022-10-10" />
+      <br /><br />
+      <label for="dtob"> Date and time of Birth: </label>
+      <input type="datetime-local" value="" />
+      <br /><br />
+      <label for="resume"> Upload your resume: </label>
+      <input type="file" value="" />
+      <br /><br />
+      <label for="search">Search: </label>
+      <input type="search" value="" placeholder="Search anything" />
+      <br/><br/>
+      <label for="favcolor">Favourite color: </label>
+      <input type="color" value=""  />
+      <br/><br/>
+      <label for="click me">Click Me</label>
+      <input type="button" value="Click Me" onclick="alert('Hii')" />
+      <br /><br />
+      <input type="submit" value="Submit" />
+    </form>
+
+    <hr/>
+    <h3>Image with source as internet</h3>
+    <img src="https://upload.wikimedia.org/wikipedia/en/2/2f/Jerry_Mouse.png" alt="Jerry_Mouse" width="150px" height="300px" />
+    <h3> Image with source as local Computer</h3>
+    <img src="wa.jpg" alt="lapatop" width="400px" height="250px" />
+    
+    <h4/> 
+    <h3> Anchor Tag</h3>
+    <a href="https://www.google.com/">Google</a>
+    <br/>
+    <a href="greet.html" target="_blank">Greeting</a>
+
+    <h3>Graphics</h3>
+    <video controls loop muted width="400px" height="200px" poster="wa.jpg">
+      <source src="http://commondatastorage.googleapis.com/gtv-videos-bucket/sample/BigBuckBunny.mp4" type="video/mp4"/>
+    </video>
+  </body>
+</html>

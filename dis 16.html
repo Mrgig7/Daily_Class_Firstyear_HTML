@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Practice</title>
+    <!-- Internal CSS -->
+    <style>
+      body {
+        background-color: lightcoral;
+        border: 2px dashed greenyellow;
+      }
+
+      h1 {
+        color: red;
+      }
+      /* 
+        absolute size: px=> this is same in every screen.
+        relative size: em, rem
+        percentage size: %=> 100% is default normal size, while if you go down it deccreaases the size and vice-versa
+      */
+
+      div {
+        font-size: 30px;
+      }
+
+      /* 1em = 16px */
+      /* After applying the font-size property to div block, 1em=30px */
+      /* REM */
+
+      p {
+        font-size: 2em; /*60px*/
+      }
+
+      span {
+        font-size: 4em; /*180px*/
+        font-size: 1rem; /* Default Size of paragraph tag*/
+      }
+
+      /*
+      div (super parent) 30px
+      |
+      p (parent) 2em => 60px (1em =30px)
+      |
+      span (child) 4em => 240px (1em= 60px) 
+      
+      */
+    </style>
+  </head>
+  <body>
+    <h1>Welcome in Practice Room</h1>
+    <div>
+      <p>
+        <span>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas ipsa
+          nihil deserunt explicabo deleniti error incidunt beatae cupiditate
+          officia maiores fugiat aspernatur voluptatibus sapiente, tempore
+          aliquam, iste ullam repellendus temporibus.</span
+        >
+      </p>
+    </div>
+  </body>
+</html>
+
+<!-- 
+Inline CSS: 
+    <body
+    style="
+      background-color: lightcoral;
+      border-width: 10px;
+      border-color: green;
+      border-style: ridge;
+    "
+  >
+Internal CSS: 
+        
+External CSS 
+-->
