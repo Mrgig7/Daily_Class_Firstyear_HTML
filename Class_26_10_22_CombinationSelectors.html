@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Selectors</title>
+    <style>
+       div {
+          width: 400px;
+          height: 400px;
+          background-color:red;
+          font-size: 2rem;
+          margin-bottom: 20px;
+      }
+
+      span{
+          font-weight: 400;
+          background-color:red;
+          font-size: 2rem;
+          padding: 10px;
+      }
+
+      #a{
+          background-color:red;
+          font-size: 2rem;
+          margin-bottom: 20px;
+          width: 400px;
+          height: 400px;
+
+      }
+
+      .b {
+          font-weight: 400;
+
+          color:white
+      }
+
+      li:hover {
+          background-color: grey;
+          color: white;
+      }
+
+      ul li {
+          color: red;
+
+      }
+
+      div>strong {
+        color: green;
+
+      }
+
+      span>strong {
+        color: red;
+      }
+
+      ul>li {
+        color: red;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Combination Selectors</h1>
+    <div>This is a div</div>
+    <span>This is a span </span>
+    <p>
+      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos, obcaecati
+      eius amet voluptatum exercitationem, ab porro pariatur quaerat temporibus
+      ullam nostrum, nihil deserunt fuga placeat architecto dolore nulla
+      assumenda aperiam.
+    </p>
+
+    <div>
+      <span>
+        <strong> This is a bold text</strong>
+      </span>
+    </div>
+
+    <ul>
+      <li>This is item 1</li>
+      <li>This is item 2</li>
+      <li>This is item 3</li>
+      <li>This is item 4</li>
+    </ul>
+
+    <div class="red">This is div</div>
+
+    <div class="red green">This is 2div</div>
+
+    <div class="green">This is 3div</div>
+
+    <span class="red"> this is a span </span>
+  </body>
+</html>
